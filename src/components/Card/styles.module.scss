@@ -1,0 +1,40 @@
+.card {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 7px;
+  user-select: none;
+}
+
+.wrapper {
+  display: table;
+  width: 50px;
+  height: 72px;
+  cursor: pointer;
+}
+
+.withBorder {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 47px;
+  height: 70px;
+  margin-right: 3px;
+  overflow: hidden;
+}
+
+.back {
+  background: url('./back-red.png');
+  background-repeat: no-repeat;
+  background-size: 49px;
+}
+
+.valueWrapper {
+  display: table-cell;
+  vertical-align: middle;
+  background: #eee;
+  text-align: center;
+}
+
+.value {
+  height: 100%;
+  text-transform: uppercase;
+}

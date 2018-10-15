@@ -1,0 +1,14 @@
+.wrapper {
+  position: absolute;
+  padding: 10px 20px;
+  bottom: -60px;
+  transform: translate(-50%, 50%);
+  left: 50%;
+  background: white;
+  box-shadow: 1px 3px 3px black;
+  transition: bottom 0.3s ease-in-out;
+}
+
+.show {
+  bottom: 50%;
+}
